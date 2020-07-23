@@ -81,16 +81,39 @@ https://localhost:9980/loleaflet/dist/loleaflet.html?file_path=file:///PATH/TO_D
 
 https://github.com/LibreOffice/online/blob/master/loleaflet/reference.html
 
-或參考 Collabora Online editor API reference
+或參考 
+
+### Collabora Online editor API reference
 
 https://www.collaboraoffice.com/collabora-online-editor-api-reference/
 
-### HTTP API 文件
+### Leaflet 官方文件
+
+https://leafletjs.com/reference-1.6.0.html
+
+
+Collabora文件、Leaflet官方文件，基本上差異不大
+
+
+### LibreOffice Online API (HTTP API 文件) (server端)
 
 https://github.com/LibreOffice/online/blob/master/wsd/reference.md
 
 
 
 
+### WOPI Extensions
 
+LibreOffice Online 使用「類WOPI」傳輸協定與host Online主機互動
+![https://i.imgur.com/m3qFGWK.png](https://i.imgur.com/m3qFGWK.png)
 
+##### 什麼是WOPI
+
+Web application Open Platform Interface protocol (WOPI) 
+網頁應用程式公開平台介面協定
+
+REST-based protocol
+符合REST基礎的協定
+
+##### WOPI官網
+https://wopi.readthedocs.io/projects/wopirest/en/latest/index.html

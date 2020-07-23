@@ -53,9 +53,42 @@ loolwsd = Libre Office On Line Web Socket Daemon
 https://github.com/LibreOffice/online/blob/master/loleaflet/README
 online/loleaflet/
 API的呼叫端
-需要由 npm 安裝 nodejs
+~/.npmrc prefix=/opt/npm
+開發CSS可以藉由安裝browser-sync自動Reload
+```
+npm install -g browser-sync
+./configure --enable-browsersync
+```
+delete `dist` directory
 
-### 
+LOOL_SERVE_FROM_FS=1 make run
+
+make sync-[writer|calc|impress]
+
+To run another document use:
+```
+browser-sync start --config browsersync-config.js --startPath "loleaflet/96c23f663/loleaflet.html?file_path=file:///path/to/the/file.ods"
+```
+
+open dist/loleaflet.html through loolwsd's fileserver
+
+https://localhost:9980/loleaflet/dist/loleaflet.html?file_path=file:///PATH/TO_DOC&host=wss://localhost:9980
+
+
+## API & 事件
+
+### LOLeaflet API 文件
+
+https://github.com/LibreOffice/online/blob/master/loleaflet/reference.html
+
+或參考 Collabora Online editor API reference
+
+https://www.collaboraoffice.com/collabora-online-editor-api-reference/
+
+### HTTP API 文件
+
+https://github.com/LibreOffice/online/blob/master/wsd/reference.md
+
 
 
 

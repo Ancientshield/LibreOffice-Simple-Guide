@@ -8,18 +8,25 @@
 ### 較重要的有：
 
 Module
+
 sal/    系統抽象層(System abstraction layer)rtl, osl and sal
+
 tools/    提供基本內部型(三角形、多邊形、顏色)
+
 vcl/    Visual Class Library 提供widgets小零件 (windowing, buttons, controls, file-pickers etc.)工具包
 
 framework/ UNO Stuff, Toolbars, menus, 包含加速器和交互作用
+
 sfx2/ 
 
 ### 應用程式相關
 
 desktop/ LibreOffice installarion interface
+
 sw/    Writer
+
 sc/    Calc
+
 sd/    Draw/Impress
 
 
